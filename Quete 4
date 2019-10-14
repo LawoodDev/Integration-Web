@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FindThePrecious</title>
+    <meta name="author" content="Lawood">
+    <meta name="language" content="fr-FR">
+    <meta name="description" content="Ma description de maquette">
+</head>
+
+<body>
+    <header>
+        <div>
+            <span>FindThePrecious</span>
+            <nav>
+                <ul>
+                    <li><a href="/fellows" title="Fellows">Fellows</a></li>
+                    <li><a href="/contact" title="Contact Us">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="slider">
+        <img src="https://picsum.photos/200/300" alt="slide1">
+        <span>slide 1</span>
+        <img src="https://picsum.photos/200/300" alt="slide2">
+        <span>slide 2</span>
+        <img src="https://picsum.photos/200/300" alt="slide3">
+        <span>slide 3</span>
+    </div>
+    <section class="articlelist">
+        <h2>Les articles</h2>
+        <article>
+            <h2>The Wizard</h2>
+            <img src="https://picsum.photos/200/200" alt="article1">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+            </p>
+        </article>
+        <article>
+            <h2>Hobbit #3</h2>
+            <img src="https://picsum.photos/200/200" alt="article2">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+            </p>
+        </article>
+        <article>
+            <h2>Dummy Dwarf</h2>
+            <img src="https://picsum.photos/200/200" alt="article3">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat
+            </p>
+        </article>
+    </section>
+    <form action="test">
+        <h3>Contact Us</h3>
+        <label for="email">Your mail</label>
+        <input type="email" id="email" name="email">
+
+        <label for="name">Your name</label>
+        <input type="text" id="name" name="name">
+
+        <label for="content-mail"></label>
+        <textarea name="content-mail" id="content-mail" cols="30" rows="10"></textarea>
+        <button type="submit">Send mail</button>
+    </form>
+    <footer>
+        <span><a href="/about">About Us</a></span>
+        <span><a href="/fellows">Fellows</a></span>
+        <span><a href="/join">Join our army</a></span>
+        <span><a href="/faq">FAQ</a></span>
+        <span><a href="/cgu">Reward conditions</a></span>
+        <span><a href="/mention">Legal mentions</a></span>
+        <span><a href="/twitter/sauron4ever">Sauron4ever<br>
+        Follow him also on twitter</a></span>
+    </footer>
+</body>
+
+</html>
